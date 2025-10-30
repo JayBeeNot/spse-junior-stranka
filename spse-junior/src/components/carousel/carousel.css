@@ -1,0 +1,9 @@
+.splide__arrows {
+    display: none !important;
+}
+.splide__slide img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+}

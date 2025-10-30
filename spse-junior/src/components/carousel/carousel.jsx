@@ -1,21 +1,19 @@
-import { Splide, SplideSlide } from '@splidejs/react-splide';
+import { Splide, SplideSlide,} from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
-
-
-
+import  './carousel.css';
 
 const Carousel = () => {
-
-
-    const splideOptions = () =>{
-        type:"loop",
-        perPage; 1,
-        perMove; 1
-    };
-
     return(
         <>
-            <Splide aria-label="My Favorite Images" options={splideOptions} >
+            <Splide options={{
+                type: 'loop',
+                perPage: 1,
+                autoplay: true,
+                interval: 3000,
+                pauseOnHover: false,
+                resetProgress: false,
+            }} 
+            aria-label="SPSE"  >
                 <SplideSlide>
                         <img src="/tyler.jpg" alt="slide 1"/>
                 </SplideSlide>
