@@ -15,10 +15,10 @@ const Carousel = () => {
             }} 
             aria-label="SPSE"  >
                 <SplideSlide>
-                        <img src="/tyler.jpg" alt="slide 1"/>
+                        <img src="/assets/carousel/tyler.jpg" alt="slide 1"/>
                 </SplideSlide>
                 <SplideSlide>
-                    <img src="/i_love_you_tyler.jpg" />
+                    <img src="/assets/carousel/i_love_you_tyler.jpg" />
                 </SplideSlide>
             </Splide>
         </>
